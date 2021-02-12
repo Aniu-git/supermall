@@ -1,5 +1,7 @@
 import axios from 'axios'
 
+
+
 export function request(config) {
   // 创建axios的实例
   const instance = axios.create({
@@ -23,4 +25,7 @@ export function request(config) {
 
   // 发送真正的网络请求
   return instance(config)
+
+
 }
+
